@@ -17,7 +17,20 @@ h2{
         text-align:center;
 }
 
+h3{
+        font-size: 1em;
+}
+
+.column{
+        text-align: center;
+}
+
 .boxer{
         text-align: center;
         padding:2.5%;
+}
+
+i{
+        padding: 1%;
+        color:#02380a;
 }
