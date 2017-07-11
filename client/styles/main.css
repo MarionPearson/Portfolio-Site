@@ -10,15 +10,35 @@ html{
 
 h1{
         font-size: 2.0em;
+        text-align: center; 
+}
+
+.button{
+        background-color: #02380a; 
+        color: white;
+}
+
+.wrapper{
+        width: 66.66%;
+        margin-left: 16.5%;
+        margin-right: 16.5% 
+
+}
+
+.container{
+        padding: 2%;
+        background-color:rgba(255,255,255,0.5); 
+        border-radius: 25px; 
+        width:100%;
 }
 
 h2{
-        font-size: 1.3em;
+        font-size: 1.5em;
         text-align:center;
 }
 
 h3{
-        font-size: 1em;
+        font-size: 1.125em;
 }
 
 .column{
@@ -34,3 +54,30 @@ i{
         padding: 1%;
         color:#02380a;
 }
+
+.services:after{
+        clear:both;
+}
+
+.services{
+        border-radius: 10px;
+        opacity: .95;
+        background: #02380a;
+        width:30%;
+        float: left;
+        margin:1.50%;
+        padding:1.50%;
+        display: block;
+        color: white;
+}
+
+.services p{
+        font-size: .85em;
+}
+
+.services h2{
+        font-size: 1.5em;
+        text-align:center;
+}
+
+
